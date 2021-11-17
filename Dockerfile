@@ -1,7 +1,7 @@
 # Dockerfile for Pega 8 Platform
 
 # Base image to extend from
-FROM pegasystems/tomcat:9-jdk11 as release
+FROM tomcat:9.0.54-jdk11-openjdk as release
 
 ARG VERSION
 
